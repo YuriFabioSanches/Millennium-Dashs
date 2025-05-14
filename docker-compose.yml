@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  millenium-dashs:
+    container_name: millenium-dashs
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    restart: always
