@@ -1,0 +1,53 @@
+# Ambiente virtual
+venv/
+.flaskenv
+# Arquivos de configuração local
+*.env
+instance/
+config.py
+pyrightconfig.json
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs e arquivos temporários
+*.log
+*.sqlite3
+*.db
+*.tmp
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Dependências instaladas
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+
+# Cache e arquivos desnecessários em migrations
+migrations/__pycache__/
+migrations/versions/__pycache__/
+migrations/versions/*.pyc
+
+# Manter scripts de migração
+!migrations/versions/*.py
+
+
+# Mapas de código-fonte
+*.map
+
+# Licenças e arquivos gerados por dependências
+LICENSE
+README
+
+# Ignorar tudo dentro do diretório app/alerts
+app/alerts/*
