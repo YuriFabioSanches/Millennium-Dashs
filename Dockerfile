@@ -1,5 +1,5 @@
-# Base: Python 3.12 para Windows Server Core LTSC 2022
-FROM python:3.12-windowsservercore-ltsc2022
+# Base: Python 3.12 para Windows Server Core LTSC 2019
+FROM python:3.12.10-windowsservercore-1809
 
 # Definir o diretório de trabalho dentro do container
 WORKDIR /app
